@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased bg-black text-white`}>
         <div className="fixed inset-0 w-full h-full z-10">   
           <Image
-            src="/bg.png"          // public/bg.png
+            src="./bg.png"          // public/bg.png
             alt="Background"       // mandatory alt
             fill
             className="object-cover object-center"

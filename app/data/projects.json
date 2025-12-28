@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Full-Stack RAG Application",
+      "description": "Built an end-to-end Retrieval-Augmented Generation (RAG) system. Users can upload documents or URLs and interact via a chat interface. Supports multi-modal retrieval, surfacing relevant text, tables, and images. Designed a scalable backend with async task processing and cloud deployment. Focused on precision, explainability, and real-world usability",
+      "image": "/rag.png",
+      "tags": ["Next.js", "TypeScript", "Tailwind", "Clerk", "FastAPI", "Supabase (PostgreSQL)", "Redis", "Celery", "AWS", "Docker", "LLMs", "embedding models", "rerankers", "LangChain", "unstructured.io"],
+      "github": "https://github.com/amrutha2508/Full-Stack-RAG-project",
+      "details": "https://github.com/amrutha2508/Full-Stack-RAG-project"
+    },
+        {
+      "id": 2,
+      "title": "Automated Standardization of historical clinical data attributes",
+      "description": "Developed an AI-powered data pipeline to clean and standardize historical medical data at Bristol Myers Squibb. The system automatically maps inconsistent names and attributes to current standards, improving data quality, reducing manual review, and enabling reliable insights for downstream analysis. The pipeline uses BioBERT and FastText embeddings combined with neural networks to handle variations and ambiguities, and was trained on an expanded dataset of over 45K samples.",
+      "image": "/bms_project.png",
+      "tags": [ "Data Cleaning", "Data Standardization", "BioBERT", "FastText", "Neural Networks", "LLMs", "Python", "Data Pipeline"],
+      "github": "https://github.com/amrutha2508/-BMS-Challenge-2024",
+      "details": "https://amrutha2508.github.io/html-portfolio/projects/bms.html"
+    },
+        {
+      "id": 3,
+      "title": "Analyzing AI Narratives: Utopia vs. Dystopia",
+      "description": "Analyzed thousands of AI-related news headlines to uncover public sentiment and emerging themes. Used BERTopic for topic extraction and LLM prompting for semantic labeling .Built a multi-label classifier covering 9 AI domains (education, careers, ethics, industries, governance, etc.). Applied lexical and transformer-based sentiment models. Performed n-gram analysis to surface key concerns like job displacement and misinformation. Created interactive dashboards to visualize narrative trends",
+      "image": "/ai.jpg",
+      "tags": ["BERTopic", "OpenAI", "RoBERTa", "VADER", "Tableau", "Plotly"],
+      "github": "https://github.com/amrutha2508/RAISE-25",
+      "details": "https://amrutha2508.github.io/html-portfolio/projects/ai-headline.html"
+    },
+    {
+      "id": 4,
+      "title": "Fashion CLIP — Multi-modal Image–Text Retrieval",
+      "description": "Fine-tuned a CLIP model to improve image–text matching for fashion products, helping search results better reflect product attributes. Developed preprocessing pipelines to normalize brand names and product details, improving model performance across diverse datasets. Applied multimodal AI and transformers to enhance search accuracy and generalization across different fashion categories.",
+      "image": "/fclip.png",
+      "tags": ["CLIP", "Transformers", "PyTorch","LLMs"],
+      "github": "https://github.com/amrutha2508/FashionCLIP/blob/main/README.md",
+      "details": "https://amrutha2508.github.io/html-portfolio/projects/fclip.html"
+    },
+    {
+      "id": 5,
+      "title": "Fact-Checking on Public Health Claims",
+      "description": "Built an explainable NLP pipeline to fact-check public health claims from social media, classifying them as True, False, Mixture, or Unproven, while addressing challenges like domain-specific language, overfitting, and class imbalance.",
+      "image": "/fact-check.png",
+      "tags": ["NLP", "Fact-Checking", "PUBHEALTH Dataset", "Logistic Regression", "Neural Networks", "DistilBERT", "SciBERT"],
+      "github": "https://github.com/amrutha2508/Fact-Checking-for-Public-Health-Claims",
+      "details": "https://amrutha2508.github.io/html-portfolio/projects/fact-check.html"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "categories":[
+    {
+        "name": "Awards",
+        "details": [
+            { "name": "Neville O'Reilly Award, Department of Statistics, Rutgers university",
+             "link" : "https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/1749839092293/single-media-viewer/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"
+            },
+            {
+                "name": "2024 BMS Hackathon Winner",
+                "link": "https://www.linkedin.com/posts/amrutha-karuturi-017096245_machinelearning-ai-llms-activity-7300892608505995266-HgbG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"
+            },
+            {
+                "name": "Finalist in RAISE-25 Hackathon, Rutgers University",
+                "link": "https://www.linkedin.com/posts/rutgers-masters-in-public-informatics_publicinformatics-rutgersmpi-datascience-activity-7304210057297068032-cQoT?utm_source=share&utm_medium=member_desktop&rcm=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"
+            }
+        ]
+
+    },
+    {
+        "name":"Certifications",
+        "details": [
+            {
+                "name": "AWS Cerified Cloud Practitioner",
+                "link": "https://www.credly.com/badges/d43e9499-60ae-4c8f-a943-e9c53a25432c/public_url"
+            },
+            {
+                "name": "Google Advanced Data Analytics Specialization",
+                "link": "https://www.coursera.org/account/accomplishments/professional-cert/11JCKQDTW7JE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof"
+            },
+            {
+                "name":"IBM Databases and SQL Certification",
+                "link":"https://coursera.org/share/53ee8d6f07ed2a3918e7cc69ad913079"
+            }
+        ]
+    }
+  ]
+}

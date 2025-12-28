@@ -1,0 +1,69 @@
+{
+  "categories": [
+  {
+    "name": "AI / Machine Learning",
+    "skills": [
+      { "name": "NLP" },
+      { "name": "LLMs" },
+      { "name": "Transformers" },
+      { "name": "Neural Networks" },
+      { "name": "BioBERT" },
+      { "name": "CLIP" },
+      { "name": "FastText" },
+      { "name": "Classification" },
+      { "name": "Clustering" },
+      { "name": "Recommendation Systems" },
+      { "name": "RAG pipelines" },
+      { "name": "Multimodal Learning" }
+    ]
+  },
+  {
+    "name": "Data & Analytics",
+    "skills": [
+      { "name": "Python" },
+      { "name": "R" },
+      { "name": "SQL" },
+      { "name": "Pandas" },
+      { "name": "NumPy" },
+      { "name": "Scikit-Learn" },
+      { "name": "Statistical Analysis" },
+      { "name": "ETL" },
+      { "name": "Data Visualization (Tableau, Plotly, Matplotlib)" }
+    ]
+  },
+  {
+    "name": "Backend & APIs",
+    "skills": [
+      { "name": "FastAPI" },
+      { "name": "Flask" },
+      { "name": "Node.js" },
+      { "name": "Supabase (PostgreSQL)" },
+      { "name": "MongoDB" },
+      { "name": "Redis" },
+      { "name": "Celery" },
+      { "name": "Airflow" }
+    ]
+  },
+  {
+    "name": "Frontend",
+    "skills": [
+      { "name": "React" },
+      { "name": "Next.js" },
+      { "name": "TypeScript" },
+      { "name": "JavaScript" },
+      { "name": "HTML" },
+      { "name": "CSS" },
+      { "name": "Tailwind CSS" }
+    ]
+  },
+  {
+    "name": "Cloud & DevOps",
+    "skills": [
+      { "name": "Docker" },
+      { "name": "AWS (Certified Cloud Practitioner)" },
+      { "name": "Git" },
+      { "name": "GitHub" }
+    ]
+  }
+]
+}

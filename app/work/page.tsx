@@ -5,6 +5,7 @@ import { BiLogoGithub } from "react-icons/bi"
 import { CgExternal } from "react-icons/cg"
 import { BsArrowLeft } from "react-icons/bs"
 import projectsData from '../data/projects.json'
+import { BASE_PATH } from "@/lib/constants";
 
 
 const page = () => {
@@ -27,7 +28,7 @@ const page = () => {
           {projects.map((project)=>(
             <div key={project.id} className="group overflow-hidden rounded-lg border hover:scale-105 border-neutral-800/70  bg-slate-900/50 transition-all duration-300">
               <div className="relative h-48 w-full overflow-hidden">
-                <Image src={project.image} alt={project.title}
+                <Image src={`${BASE_PATH}${project.image}`} alt={project.title}
                 fill 
                 className="object-cover transition-transform duration-300 group-hover:scale-110">
                 </Image>

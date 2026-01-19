@@ -14,9 +14,9 @@ const page = () => {
         </Link>
         <div className='space-y-6'>
           <h1 className='text-4xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500'>About Me</h1>
-          <div className='space-y-4 text-neutral-200 text-pretty tracking-tight'>
+          {/* <div className='space-y-4 text-neutral-200 text-pretty tracking-tight'>
             <p>I am an aspiring AI and Data Science professional with a strong focus on building applied, production-ready machine learning systems. I recently completed my M.S. in Statistics – Data Science at Rutgers University, where my work spanned NLP, multimodal learning, large language models and data pipelines.</p>
-          </div>
+          </div> */}
           <div className='space-y-4'>
             <h2 className='text-2xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 to-blue-500'>Education</h2>
             <div className='space-y-2'>

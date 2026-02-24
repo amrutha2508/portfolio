@@ -34,7 +34,19 @@ const page = () => {
             <h2 className='text-2xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 to-blue-500'>Professional Experience</h2>
             <div className='space-y-4'>
               <div>
-                <p className='font-bold text-lg'>App Dev & AI/ML Engineer Intern</p>
+                <p className='font-bold text-lg'>IT/AI development Intern</p>
+                <p className="text-neutral-500 mb-3">MIRA safety, Jan 2026-present</p>
+                <ul className="list-disc list-inside space-y-2 mb-5 text-gray-400 text-sm italic">
+                  <li>
+                    Developing an AI-powered consultant chatbot using a stack including LangChain, LangGraph, RAG pipelines, LLM APIs, Express.js (backend), Supabase (database), and React Native (frontend) to deliver context-aware recommendations and structured retrieval workflows.
+                  </li>
+                  <li>
+                    Write and maintain automated tests using Jest for the application and perform regular QA testing on the company website ensuring functionality, performance stability.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p className='font-bold text-lg'>App Dev & AI/ML Engineer Intern | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/Position/2714144815/treasury/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
                 <p className="text-neutral-500 mb-3">Uplifty AI, Aug 2025-present</p>
                 <ul className="list-disc list-inside space-y-2 mb-5 text-gray-400 text-sm italic">
                   <li>

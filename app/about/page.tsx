@@ -6,7 +6,7 @@ import { BsArrowLeft } from 'react-icons/bs'
 const page = () => {
   return (
     <div className='min-h-screen flex items-center justify-center'>
-      <main className="max-w-xl m-3 md:m-8 z-50 w-full space-y-8 border rounded-xl border-gray-700/50 p-5 sm:p-10 backdrop-blur-xl bg-black/80">
+      <main className="max-w-4xl m-3 md:m-8 z-50 w-full space-y-8 border rounded-xl border-gray-700/50 p-5 sm:p-10 backdrop-blur-xl bg-black/80">
         <Link href="/">
           <Button variant="ghost" className='hover:bg-black hover:text-white rounded-full duration-300 mb-5 cursor-pointer'>
             <BsArrowLeft className='ml-2'/>
@@ -20,13 +20,23 @@ const page = () => {
           <div className='space-y-4'>
             <h2 className='text-2xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 to-blue-500'>Education</h2>
             <div className='space-y-2'>
-              <p className='font-medium'>Masters of Science in Statistics - Data Science</p>
-              <p className="text-neutral-500">Rutgers University, 2023-2025</p>
+              <div className=' flex-row flex gap-4 items-center'>
+                <img className="w-10 h-10" src="/rutgers.png" alt="Rutgers University" />
+                <div>
+                  <p className='font-medium'>Masters of Science in Statistics - Data Science</p>
+                  <p className="text-neutral-500">Rutgers University, 2023-2025</p>
+                </div>
+              </div>
               <p className='text-sm italic text-neutral-400'>Statistical Modeling, Stat Learning, Neural Networks, Machine Learning, Data Structures and Algorithms(Python), Database Management, Data Wrangling (R), NLP, Data Mining.</p>
             </div>
             <div className='space-y-2'>
-              <p className='font-medium'>B.Tech in Computer Science</p>
-              <p className="text-neutral-500">Indian Institute of Technology Jodhpur, 2018-2022</p>
+              <div className=' flex-row flex gap-4 items-center'>
+                <img className="w-10 h-10" src="/IITJlogo.png" alt="IIT Jodhpur" />
+                <div>
+                  <p className='font-medium'>B.Tech in Computer Science</p>
+                  <p className="text-neutral-500">Indian Institute of Technology Jodhpur, 2018-2022</p>
+                </div>
+              </div>
               <p className='text-sm italic text-neutral-400'>Data Structures and Algorithms, Object-Oriented Programming, Embedded Systems, Machine Learning.</p>
             </div>
           </div>
@@ -34,20 +44,30 @@ const page = () => {
             <h2 className='text-2xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 to-blue-500'>Professional Experience</h2>
             <div className='space-y-4'>
               <div>
-                <p className='font-bold text-lg'>IT/AI development Intern</p>
-                <p className="text-neutral-500 mb-3">MIRA safety, Jan 2026-present</p>
+                <div className=' flex-row flex gap-4 items-center'>
+                  <img className="w-10 h-10" src="/miraSafety.png" alt="Mira Safety" />
+                  <div className='pt-3'>
+                    <p className='font-bold text-lg'>IT/AI development Intern</p>
+                    <p className="text-neutral-500 mb-3">MIRA safety, Jan 2026-present</p>
+                  </div>
+                </div>
                 <ul className="list-disc list-inside space-y-2 mb-5 text-gray-400 text-sm italic">
                   <li>
-                    Developing an AI-powered consultant chatbot using a stack including LangChain, LangGraph, RAG pipelines, LLM APIs, Express.js (backend), Supabase (database), and React Native (frontend) to deliver context-aware recommendations and structured retrieval workflows.
+                    Developing an AI-powered consultant chatbot using a stack including <span className="font-bold text-gray-300">LangChain, LangGraph, RAG pipelines, LLM APIs, Express.js, Sqlite, ChromaDB, and React Native</span> to deliver <span className="font-bold text-gray-300">context-aware</span> recommendations and structured retrieval workflows.
                   </li>
                   <li>
-                    Write and maintain automated tests using Jest for the application and perform regular QA testing on the company website ensuring functionality, performance stability.
+                    Write and maintain automated tests using <span className="font-bold text-gray-300">Jest</span> for the application and perform regular <span className="font-bold text-gray-300">QA testing</span> on the company website ensuring functionality, performance stability.
                   </li>
                 </ul>
               </div>
               <div>
-                <p className='font-bold text-lg'>App Dev & AI/ML Engineer Intern | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/Position/2714144815/treasury/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
-                <p className="text-neutral-500 mb-3">Uplifty AI, Aug 2025-present</p>
+                <div className=' flex-row flex gap-4 items-center'>
+                  <img className="w-10 h-10" src="/uplifty.png" alt="uplifty AI" />
+                  <div className='pt-3'>
+                    <p className='font-bold text-lg'> AI/ML Application Development Intern | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/Position/2714144815/treasury/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
+                    <p className="text-neutral-500 mb-3">Uplifty AI, Aug 2025-Feb 2026</p>
+                  </div>
+                </div>
                 <ul className="list-disc list-inside space-y-2 mb-5 text-gray-400 text-sm italic">
                   <li>
                     Contributed to full-stack development using  <span className="font-bold text-gray-300">React, JavaScript, Flask,
@@ -64,8 +84,13 @@ const page = () => {
                 </ul>
               </div>
               <div>
-                <p className='font-bold text-lg'>Data Science Research Assistant | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/details/recommendations/"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
-                <p className="text-neutral-500 mb-3">Bristol Myers Squibb & Rutgers University, Oct 2024-Dec 2024</p>
+                <div className=' flex-row flex gap-4 items-center'>
+                  <img className="w-10 h-10" src="/bms.png" alt="BMS"  />
+                  <div className='pt-3'>
+                    <p className='font-bold text-lg'>Data Science Graduate Assistant | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/details/recommendations/"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
+                    <p className="text-neutral-500 mb-3">Bristol Myers Squibb & Rutgers University, Oct 2024-Dec 2024</p>
+                  </div>
+                </div>
                 <ul  className="list-disc list-inside space-y-2 text-gray-400 text-sm italic mb-5">
                   <li>Built an <span className="font-bold text-gray-300">data pipeline</span> to standardize and clean historical medical data, making it consistent and easier to use for analysis.</li>
                   <li>Designed a hierarchical ensemble combining <span className="font-bold text-gray-300">BioBERT, FastText embeddings, and neural networks</span>. Expanded training data from 32 to 45K+ samples through <span className="font-bold text-gray-300">data augmentation</span>.</li>
@@ -74,8 +99,13 @@ const page = () => {
                 </ul>
               </div>
               <div>
-                <p className='font-bold text-lg'>Recitation Instructor</p>
-                <p className="text-neutral-500 mb-3"> Data101 course, Rutgers University, Sep 2024-May 2025</p>
+                <div className=' flex-row flex gap-4 items-center'>
+                  <img className="w-10 h-10" src="/rutgers.png" alt="Rutgers University" />
+                  <div className='pt-3'>
+                    <p className='font-bold text-lg'>Recitation Instructor</p>
+                    <p className="text-neutral-500 mb-3"> Data101 course, Rutgers University, Sep 2024-May 2025</p>
+                  </div>
+                </div>
                 <ul className="list-disc list-inside space-y-2 text-gray-400 text-sm italic mb-5">
                   <li><span className="font-bold text-gray-300">Explained data science concepts</span> in a clear and accessible way for students with <span className="font-bold text-gray-300">varying technical backgrounds</span>.</li>
                   <li>Developed practical instructional materials in <span className="font-bold text-gray-300">R programming</span>, guiding students through hands-on exercises.</li>

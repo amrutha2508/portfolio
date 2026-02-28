@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
@@ -7,8 +8,10 @@ import {
   BiMailSend
 } from "react-icons/bi";
 import { SiTableau } from 'react-icons/si';
+import { GitHubCalendar } from 'react-github-calendar';
 
 import { HiArrowDown } from "react-icons/hi";
+
 
 export default function Home() {
   return (
@@ -93,6 +96,20 @@ export default function Home() {
                 <BiMailSend/>Email
               </Button>
             </a>
+          </div>
+          <div className=" bg-black/30 p-4 border border-gray-700/40 rounded-lg">
+            <h1 className="pb-2">Github</h1>
+            <hr className="pb-4"/>
+            <GitHubCalendar username="amrutha2508" colorScheme="dark"
+              theme={{dark: [
+              "transparent",  // 0 contributions
+              "#0e4429",
+              "#006d32",
+              "#26a641",
+              "#39d353",
+            ]}}
+            />
+
           </div>
         </nav>
       </main>

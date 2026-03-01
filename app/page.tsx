@@ -97,7 +97,7 @@ export default function Home() {
               </Button>
             </a>
           </div>
-          <div className=" bg-black/30 p-4 border border-gray-700/40 rounded-lg">
+          <div className="bg-black/30 p-4 border border-gray-700/40 rounded-lg">
             <h1 className="pb-2">Github</h1>
             <hr className="pb-4"/>
             <GitHubCalendar username="amrutha2508" colorScheme="dark"
@@ -109,7 +109,6 @@ export default function Home() {
               "#39d353",
             ]}}
             />
-
           </div>
         </nav>
       </main>

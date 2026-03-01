@@ -2,6 +2,8 @@
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { BsArrowLeft } from 'react-icons/bs'
+import Image from 'next/image'
+import { BASE_PATH } from '@/lib/constants'
 
 const page = () => {
   return (
@@ -21,7 +23,12 @@ const page = () => {
             <h2 className='text-2xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400 to-blue-500'>Education</h2>
             <div className='space-y-2'>
               <div className=' flex-row flex gap-4 items-center'>
-                <img className="w-10 h-10" src="/rutgers.png" alt="Rutgers University" />
+                <Image
+                  src={`${BASE_PATH}/rutgers.png`}
+                  alt="Rutgers University"
+                  width={40}
+                  height={40}
+                />
                 <div>
                   <p className='font-medium'>Masters of Science in Statistics - Data Science</p>
                   <p className="text-neutral-500">Rutgers University, 2023-2025</p>
@@ -31,7 +38,12 @@ const page = () => {
             </div>
             <div className='space-y-2'>
               <div className=' flex-row flex gap-4 items-center'>
-                <img className="w-10 h-10" src="/IITJlogo.png" alt="IIT Jodhpur" />
+                <Image
+                  src={`${BASE_PATH}/IITJlogo.png`}
+                  alt="IIT Jodhpur"
+                  width={40}
+                  height={40}
+                />
                 <div>
                   <p className='font-medium'>B.Tech in Computer Science</p>
                   <p className="text-neutral-500">Indian Institute of Technology Jodhpur, 2018-2022</p>
@@ -45,7 +57,12 @@ const page = () => {
             <div className='space-y-4'>
               <div>
                 <div className=' flex-row flex gap-4 items-center'>
-                  <img className="w-10 h-10" src="/miraSafety.png" alt="Mira Safety" />
+                  <Image
+                    src={`${BASE_PATH}/miraSafety.png`}
+                    alt="MIRA Safety"
+                    width={40}
+                    height={40}
+                  />
                   <div className='pt-3'>
                     <p className='font-bold text-lg'>IT/AI development Intern</p>
                     <p className="text-neutral-500 mb-3">MIRA safety, Jan 2026-present</p>
@@ -62,7 +79,12 @@ const page = () => {
               </div>
               <div>
                 <div className=' flex-row flex gap-4 items-center'>
-                  <img className="w-10 h-10" src="/uplifty.png" alt="uplifty AI" />
+                  <Image
+                    src={`${BASE_PATH}/uplifty.png`}
+                    alt="uplifty AI"
+                    width={40}
+                    height={40}
+                  />
                   <div className='pt-3'>
                     <p className='font-bold text-lg'> AI/ML Application Development Intern | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/Position/2714144815/treasury/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
                     <p className="text-neutral-500 mb-3">Uplifty AI, Aug 2025-Feb 2026</p>
@@ -85,7 +107,12 @@ const page = () => {
               </div>
               <div>
                 <div className=' flex-row flex gap-4 items-center'>
-                  <img className="w-10 h-10" src="/bms.png" alt="BMS"  />
+                  <Image
+                    src={`${BASE_PATH}/bms.png`}
+                    alt="BMS"
+                    width={40}
+                    height={40}
+                  />
                   <div className='pt-3'>
                     <p className='font-bold text-lg'>Data Science Graduate Assistant | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/details/recommendations/"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
                     <p className="text-neutral-500 mb-3">Bristol Myers Squibb & Rutgers University, Oct 2024-Dec 2024</p>
@@ -100,7 +127,12 @@ const page = () => {
               </div>
               <div>
                 <div className=' flex-row flex gap-4 items-center'>
-                  <img className="w-10 h-10" src="/rutgers.png" alt="Rutgers University" />
+                  <Image
+                    src={`${BASE_PATH}/rutgers.png`}
+                    alt="Rutgers University"
+                    width={40}
+                    height={40}
+                  />
                   <div className='pt-3'>
                     <p className='font-bold text-lg'>Recitation Instructor</p>
                     <p className="text-neutral-500 mb-3"> Data101 course, Rutgers University, Sep 2024-May 2025</p>

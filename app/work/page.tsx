@@ -40,7 +40,7 @@ const page = () => {
                   <p className="text-grau-300 mg-4 mt-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4 mt-4">
                     {project.tags.map((tag,index)=>(
-                      <span key={index} className="px-2 py-1 text-sm rounded-full bg-slate-800/50 text-gray-300 border border-neutral-800/70">
+                      <span key={index} className="px-2 py-1 text-sm rounded-full bg-slate-700/50 text-gray-300 border border-neutral-800/70">
                         {tag}
                       </span>
                     ))}

@@ -69,11 +69,10 @@ const page = () => {
                   </div>
                 </div>
                 <ul className="list-disc list-inside space-y-2 mb-5 text-gray-400 text-sm italic">
-                  <li>
-                    Developing an AI-powered consultant chatbot using a stack including <span className="font-bold text-gray-300">LangChain, LangGraph, RAG pipelines, LLM APIs, Express.js, Sqlite, ChromaDB, and React Native</span> to deliver <span className="font-bold text-gray-300">context-aware</span> recommendations and structured retrieval workflows.
+                  <li> Built a domain-specific AI chatbot using <span className="font-bold text-gray-300">LangChain, LangGraph, and RAG pipelines</span> to deliver context-aware product recommendations, integrated with PostgreSQL, FastAPI, and React Native.
                   </li>
-                  <li>
-                    Write and maintain automated tests using <span className="font-bold text-gray-300">Jest</span> for the application and perform regular <span className="font-bold text-gray-300">QA testing</span> on the company website ensuring functionality, performance stability.
+                  <li>Developed a document ingestion pipeline to process product documents from S3 into embeddings stored in PostgreSQL.</li>
+                  <li>Implemented <span className="font-bold text-gray-300">guardrails</span> to identify knowledge gaps and notify admins when additional product information is needed.
                   </li>
                 </ul>
               </div>

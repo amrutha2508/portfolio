@@ -7,10 +7,19 @@
       "image": "/rag.png",
       "tags": ["Next.js", "TypeScript", "Tailwind", "Clerk", "FastAPI", "Supabase (PostgreSQL)", "Redis", "Celery", "AWS", "Docker", "LLMs", "embedding models", "rerankers", "LangChain", "unstructured.io"],
       "github": "https://github.com/amrutha2508/Full-Stack-RAG-project",
-      "details": "https://drive.google.com/file/d/1I2epQIv0Ncm1rgdlzmeTRbFZg_Yi-fLI/view?usp=share_link"
+      "details": "https://think-doc-4v4wuj0.gamma.site"
+    },
+    {
+      "id": 2,
+      "title": "MLOps - Monitor Dashboard",
+      "description": "MLOps Monitor is an end-to-end MLOps practice project built around the NYC Taxi trip duration prediction problem. The goal was to go beyond just training a model and instead build the surrounding infrastructure that makes machine learning reproducible, observable, and deployable in a real-world setting — experiment tracking, model versioning, automated ingestion, performance monitoring, and a UI to tie it all together.",
+      "image": "/overviewPage.png",
+      "tags": [ "Data Cleaning", "Feature Engineering", "Python", "Model Pipeline", "MLFlow", "S3", "FastAPI"],
+      "github": "https://github.com/amrutha2508/MLOps",
+      "details": "https://mlops-monitor-55nh2yp.gamma.site/#"
     },
         {
-      "id": 2,
+      "id": 3,
       "title": "Automated Standardization of historical clinical data attributes",
       "description": "Developed an AI-powered data pipeline to clean and standardize historical medical data at Bristol Myers Squibb. The system automatically maps inconsistent names and attributes to current standards, improving data quality, reducing manual review, and enabling reliable insights for downstream analysis. The pipeline uses BioBERT and FastText embeddings combined with neural networks to handle variations and ambiguities, and was trained on an expanded dataset of over 45K samples.",
       "image": "/bms_project.png",
@@ -19,7 +28,7 @@
       "details": "https://amrutha2508.github.io/html-portfolio/projects/bms.html"
     },
         {
-      "id": 3,
+      "id": 4,
       "title": "Analyzing AI Narratives: Utopia vs. Dystopia",
       "description": "Analyzed thousands of AI-related news headlines to uncover public sentiment and emerging themes. Used BERTopic for topic extraction and LLM prompting for semantic labeling .Built a multi-label classifier covering 9 AI domains (education, careers, ethics, industries, governance, etc.). Applied lexical and transformer-based sentiment models. Performed n-gram analysis to surface key concerns like job displacement and misinformation. Created interactive dashboards to visualize narrative trends",
       "image": "/ai.jpg",
@@ -28,7 +37,7 @@
       "details": "https://amrutha2508.github.io/html-portfolio/projects/ai-headline.html"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Fashion CLIP — Multi-modal Image–Text Retrieval",
       "description": "Fine-tuned a CLIP model to improve image–text matching for fashion products, helping search results better reflect product attributes. Developed preprocessing pipelines to normalize brand names and product details, improving model performance across diverse datasets. Applied multimodal AI and transformers to enhance search accuracy and generalization across different fashion categories.",
       "image": "/fclip.png",
@@ -37,7 +46,7 @@
       "details": "https://amrutha2508.github.io/html-portfolio/projects/fclip.html"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Fact-Checking on Public Health Claims",
       "description": "Built an explainable NLP pipeline to fact-check public health claims from social media, classifying them as True, False, Mixture, or Unproven, while addressing challenges like domain-specific language, overfitting, and class imbalance.",
       "image": "/fact-check.png",

@@ -64,16 +64,15 @@ const page = () => {
                     height={40}
                   />
                   <div className='pt-3'>
-                    <p className='font-bold text-lg'>IT/AI development Intern</p>
-                    <p className="text-neutral-500 mb-3">MIRA safety, Jan 2026-present</p>
+                    <p className='font-bold text-lg'>AI Full Stack Developer</p>
+                    <p className="text-neutral-500 mb-3">MIRA safety, Internship, Jan 2026-Jun 2026</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside space-y-2 mb-5 text-gray-400 text-sm italic">
-                  <li> Built a domain-specific AI chatbot using <span className="font-bold text-gray-300">LangChain, LangGraph, and RAG pipelines</span> to deliver context-aware product recommendations, integrated with PostgreSQL, FastAPI, and React Native.
-                  </li>
+                  <li>Built a <span className="font-bold text-gray-300">domain-specific AI chatbot</span> with LangChain, LangGraph, and RAG, delivering context-aware product recommendations with
+<span className="font-bold text-gray-300">~80% context precision</span>; integrated with PostgreSQL, FastAPI, and React Native.</li>
                   <li>Developed a document ingestion pipeline to process product documents from S3 into embeddings stored in PostgreSQL.</li>
-                  <li>Implemented <span className="font-bold text-gray-300">guardrails</span> to identify knowledge gaps and notify admins when additional product information is needed.
-                  </li>
+                  <li>Built batch <span className="font-bold text-gray-300">evaluation scripts</span> to analyze chatbot responses and queries, surfacing knowledge gaps and insights for admins.</li>
                 </ul>
               </div>
               <div>
@@ -85,8 +84,8 @@ const page = () => {
                     height={40}
                   />
                   <div className='pt-3'>
-                    <p className='font-bold text-lg'> AI/ML Application Development Intern | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/Position/2714144815/treasury/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
-                    <p className="text-neutral-500 mb-3">Uplifty AI, Aug 2025-Feb 2026</p>
+                    <p className='font-bold text-lg'> AI/ML Application Developer | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/Position/2714144815/treasury/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
+                    <p className="text-neutral-500 mb-3">Uplifty AI, Internship, Aug 2025-Jan 2026</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside space-y-2 mb-5 text-gray-400 text-sm italic">
@@ -113,8 +112,8 @@ const page = () => {
                     height={40}
                   />
                   <div className='pt-3'>
-                    <p className='font-bold text-lg'>Data Science Graduate Assistant | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/details/recommendations/"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
-                    <p className="text-neutral-500 mb-3">Bristol Myers Squibb & Rutgers University, Oct 2024-Dec 2024</p>
+                    <p className='font-bold text-lg'>Data Science Research Assistant | <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/details/recommendations/"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
+                    <p className="text-neutral-500 mb-3">Bristol Myers Squibb, Internship, Oct 2024-Dec 2024</p>
                   </div>
                 </div>
                 <ul  className="list-disc list-inside space-y-2 text-gray-400 text-sm italic mb-5">

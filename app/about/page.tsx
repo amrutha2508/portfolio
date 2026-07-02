@@ -64,7 +64,7 @@ const page = () => {
                     height={40}
                   />
                   <div className='pt-3'>
-                    <p className='font-bold text-lg'>AI Full Stack Developer</p>
+                    <p className='font-bold text-lg'>AI Full Stack Developer |  <a href="https://www.linkedin.com/in/amrutha-karuturi-017096245/overlay/Position/2837973287/treasury/?profileId=ACoAADyz0ZMBSdRAMiQwrkU8gi64p7QKAgNof10"><span className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 italic'>View Recommendation</span></a></p>
                     <p className="text-neutral-500 mb-3">MIRA safety, Internship, Jan 2026-Jun 2026</p>
                   </div>
                 </div>
